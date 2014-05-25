@@ -1,7 +1,5 @@
-# Instagram Search Web App
+# Instagram Wall 
 
-### A stupidly simple web app for searching Instagram's API, by tag.
+### A fork of Omar Sahyons work (eduvoyage.com)
 
-You can see it working at [grammy.eduvoyage.com](http://grammy.eduvoyage.com)
-
-There is also an accompanying tutorial on my blog: [eduvoyage.com](http://eduvoyage.com)
+An instagram wall plugin to display a set of images from hashtags. Also includes an option for censoring content.
