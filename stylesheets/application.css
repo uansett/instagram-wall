@@ -1,40 +1,16 @@
 body {
   background: #e3e8ec url(../images/tile.png) repeat 50% 0;
 }
-#search {
-  height: 40px;
-  padding: 10px;
-  text-align: center;
-  position: fixed;
-  width: 240px;
-  margin: 0 auto;
-  z-index: 100;
-  left: 50%;
-  top: 0;
-  margin-left: -130px;
-  border-radius:0 0 5px 5px;
-}
-
-.search-wrap {
-  background: white;
-  line-height: 30px;
-  height: 30px;
-  text-align: left;
-  border-radius: 3px;
-  width: 230px;
-  margin: 0;
-  border: 1px solid #ddd;
-}
 
 #photos-wrap {
-  width: 810px;
-  margin: 70px auto 40px auto;
+  width: 100%;
   position: relative;
   z-index: 1;
 }
 
 .photo .avatar {
   width: 40px;
+  display:none;
   height: 40px;
   padding: 2px;
   position: absolute;
@@ -44,16 +20,20 @@ body {
 }
 
 .photo  {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   float: left;
   position: relative;
-  width: 250px;
-  height: 250px;
+  width: 17%;
+  height: 17%;
   border-radius: 5px;
   background: white;
-  padding: 5px;
-  margin: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 2px;
+  margin: 2px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+#logo-photo{
+  background:url(../images/logo.png);
 }
 
 .photo .heart {
@@ -70,12 +50,4 @@ body {
   background: white url('../images/fav.png') no-repeat 2px 0;
 }
 
-.paginate {
-  display: block;
-  clear: both;
-  margin: 10px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 20px 0;
-  height: 100px;
-}
+
