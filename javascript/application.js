@@ -42,7 +42,6 @@ Instagram.Config = {
         if(shouldPost)
             photos_html += toTemplate(photo);
     });
-
     $('div#photos-wrap').append(photos_html);
   }
 
